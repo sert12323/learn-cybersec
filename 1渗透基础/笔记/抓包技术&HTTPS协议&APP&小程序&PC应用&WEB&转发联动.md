@@ -76,6 +76,8 @@ BurpSuite的使用
 
   ![image-20251017212729305](images/image-20251017212729305.png)
 
+  ![image-20251018105000480](images/image-20251018105000480.png)
+
   利用poxifier代理
 
   ![image-20251017213551726](images/image-20251017213551726.png)
@@ -85,7 +87,7 @@ BurpSuite的使用
   设置代理规则 `*表示任意字符`
 
   ![image-20251017213737509](images/image-20251017213737509.png)
-
+  
   
 
 Wireshark：
