@@ -78,9 +78,9 @@ Django
 
 1、识别插件
 
-2、Set-Cookie:expires=
+2、Set-Cookie:expires= ==一般会出现这个==
 
- 
+ ![image-20251028105931255](images/image-20251028105931255.png)
 
 Flask
 
@@ -98,6 +98,8 @@ ThinkPHP：
 
 1、X-Powered-By: ThinkPHP
 
+<img src="images/image-20251028110616621.png" alt="image-20251028110616621" style="zoom:150%;" />
+
 2、CMS识别到源码体系TP开发
 
  
@@ -106,9 +108,9 @@ Laravel：
 
 1、识别插件
 
-2、Set-Cookie中特征的格式
+2、Set-Cookie中特征的格式 `cooki的安全设置`
 
- 
+ ![image-20251028111517848](images/image-20251028111517848.png)
 
 Yii:
 
@@ -138,7 +140,7 @@ https://forum.butian.net/share/1679
 
 https://www.iculture.cc/forum-post/24115.html
 
- 
+  
 
 Shiro
 
