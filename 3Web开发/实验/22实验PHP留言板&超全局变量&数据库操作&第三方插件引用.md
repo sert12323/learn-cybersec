@@ -4,7 +4,7 @@
 
 ![image](images/image-1762328253825-1.png)
 
-连接数据库-设计一个表![img](images/{251B413C-3ADE-4B5E-9F52-F8E630FAA31B})
+连接数据库-设计一个表![img](images/{251B413C-3ADE-4B5E-9F52-F8E630FAA31B}-1763091431981-1)
 
 连接数据库代码 如果成功输出`Connected successfully`
 
@@ -36,9 +36,9 @@ $ua=$_SERVER["HTTP_USER_AGENT"];
 
 测试一下
 
-![image](images/image-1762329805279-4.png)
+![image](images/image-1762329805279-4-1763091435960-3.png)
 
-![image](images/image-1762329785663-2.png)
+![image](images/image-1762329785663-2-1763091437771-5.png)
 
 给用户提示
 
@@ -46,11 +46,11 @@ $ua=$_SERVER["HTTP_USER_AGENT"];
 echo "<script>alert('留言成功');</script>";
 ```
 
-![image](images/image-1762330536935-6.png)
+![image](images/image-1762330536935-6-1763091439302-7.png)
 
 当前目录结构
 
-![image-20251106203326459](images/image-20251106203326459.png)
+![image-20251106203326459](images/image-20251106203326459-1763091440416-9.png)
 
 `config.php`
 
@@ -120,7 +120,7 @@ function show_gbook($con,$del)
 
 复制插件到目录
 
-![image-20251106221240377](images/image-20251106221240377.png)
+![image-20251106221240377](images/image-20251106221240377-1763091443936-11.png)
 
 配置文件
 
@@ -139,4 +139,4 @@ function show_gbook($con,$del)
 </script>
 ```
 
-![image-20251106224825308](images/image-20251106224825308.png)
+![image-20251106224825308](images/image-20251106224825308-1763091445878-13.png)

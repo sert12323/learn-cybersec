@@ -1,6 +1,6 @@
 # 22安全开发-PHP应用&留言板功能&超全局变量&数据库操作&第三方插件引用
 
-<img src="C:\Users\Yennefer\AppData\Roaming\Typora\typora-user-images\image-20251104144025216.png" alt="image-20251104144025216" style="zoom: 80%;" />
+<img src="images/image-20251104144025216.png" alt="image-20251104144025216" style="zoom: 80%;" />
 
 \#开发环境：
 
