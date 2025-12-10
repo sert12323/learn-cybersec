@@ -257,7 +257,19 @@ http://192.168.1.4:82/new.php?id=1 union select 1,2,3,group_concat(column_name),
 
  
 
-跨库查询：
+跨库查询：       
+
+获取路径 
+
+load_file()的使用 可以在百度上搜索
+
+load_file()常用路径
+
+网站报错
+
+phpinfo 爆出路径
+
+
 
 1、数据库统一管理（root用户）
 
