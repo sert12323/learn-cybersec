@@ -42,7 +42,9 @@ python .\sqlmap.py -u "xxxxxx"
 --dump-all          猜全部
 ```
 
- ![image-20251212180221646](images/image-20251212180221646.png)
+ ```![image-20251212180221646](images/image-20251212180221646.png)
+ sqlmap -u "目标URL" -D 数据库名 -T 表名 -C 字段1,字段2 --dump
+ ```
 
 ![image-20251212181019692](images/image-20251212181019692.png)
 
