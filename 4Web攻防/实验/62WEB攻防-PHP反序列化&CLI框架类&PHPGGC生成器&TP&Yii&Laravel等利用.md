@@ -13,3 +13,9 @@
 ![image-20260110102906381](C:\Users\Yennefer\AppData\Roaming\Typora\typora-user-images\image-20260110102906381.png)
 
 或者借助百度搜索 对应框架反序列化 
+
+
+
+框架反序列化工具
+
+![image-20260111165905524](images/image-20260111165905524.png)
