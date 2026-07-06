@@ -68,6 +68,28 @@ cloudflared的使用
 
 ![image-20251231202552345](images/image-20251231202552345.png)
 
+ 
+
+CSRF 绕过:
+
+删除令牌并发送带有空白参数的请求
+
+删除token参数
+
+将请求从 POST 更改为 GET
+
+更改正文编码
+
+将 token 替换为随机值
+
+删除裁判或在 CSRf 文件中使用此行|`
+
+<meta name="referrer" content="no-referrer">
+
+使用另一个用户令牌
+
+更改令牌中的一个字符，内容长度绕过
+
 绕过0：规则匹配绕过问题（代码逻辑不严谨）
 
 1、<meta name="referrer" content="no-referrer">       ==空来源绕过==
@@ -77,3 +99,13 @@ cloudflared的使用
 绕过1：配合文件上传绕过（严谨使用同源绕过）
 
 绕过2：配合存储XSS绕过（严谨使用同源绕过）
+
+
+
+\#案例-CSRF利用-Token校验防护
+
+绕过1：将Token参数值复用（代码逻辑不严谨）
+
+绕过2：将Token参数删除（代码逻辑不严谨）
+
+绕过3：将Token参数值置空（代码逻辑不严谨）

