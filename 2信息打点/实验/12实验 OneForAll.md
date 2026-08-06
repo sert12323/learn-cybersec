@@ -1,6 +1,6 @@
 12实验 OneForAll
 
--  安装 OneForAll 运行cmd 
+-  安装 OneForAll 运行cmd
 
 ![image-20251022171838130](images/image-20251022171838130.png)
 

@@ -1,0 +1,782 @@
+{
+  "transactions": [
+    {
+      "id": "1786022224233-29j6egqy",
+      "label": "粘贴导入 Java",
+      "trigger": "paste-import",
+      "scope": "single-note",
+      "status": "committed",
+      "createdAt": 1786022224233,
+      "entries": [
+        {
+          "kind": "text-snapshot",
+          "path": "代码审计/Java.md",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022224233-29j6egqy-----_Java.md.txt"
+        },
+        {
+          "kind": "created-file",
+          "path": "assets/image/Java-2026-08-06-a7locljs.png"
+        },
+        {
+          "kind": "binary-snapshot",
+          "path": "assets/image/Java-2026-08-06-a7locljs.png",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022224233-29j6egqy-assets_image_Java-2026-08-06-a7locljs.png.bin"
+        },
+        {
+          "kind": "rename",
+          "fromPath": "assets/image/Java-2026-08-06-a7locljs.png",
+          "toPath": "assets/image/Java-2026-08-06-a7locljs.webp"
+        }
+      ],
+      "afterState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022224233-29j6egqy-after-----_Java.md.txt"
+          },
+          {
+            "path": "assets/image/Java-2026-08-06-a7locljs.png",
+            "kind": "binary",
+            "exists": false
+          },
+          {
+            "path": "assets/image/Java-2026-08-06-a7locljs.webp",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022224233-29j6egqy-after-assets_image_Java-2026-08-06-a7locljs.webp.bin"
+          }
+        ],
+        "folders": []
+      },
+      "beforeState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022224233-29j6egqy-----_Java.md.txt"
+          },
+          {
+            "path": "assets/image/Java-2026-08-06-a7locljs.png",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022224233-29j6egqy-assets_image_Java-2026-08-06-a7locljs.png.bin"
+          },
+          {
+            "path": "assets/image/Java-2026-08-06-a7locljs.webp",
+            "kind": "binary",
+            "exists": false
+          }
+        ],
+        "folders": []
+      },
+      "redoable": true,
+      "completedAt": 1786022224367
+    },
+    {
+      "id": "1786022271803-sxpmtjxi",
+      "label": "粘贴导入 Java",
+      "trigger": "paste-import",
+      "scope": "single-note",
+      "status": "committed",
+      "createdAt": 1786022271804,
+      "entries": [
+        {
+          "kind": "text-snapshot",
+          "path": "代码审计/Java.md",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022271803-sxpmtjxi-----_Java.md.txt"
+        },
+        {
+          "kind": "created-folder",
+          "path": "代码审计/image"
+        },
+        {
+          "kind": "created-file",
+          "path": "代码审计/image/Java-2026-08-06-1n0dn1h6.png"
+        },
+        {
+          "kind": "binary-snapshot",
+          "path": "代码审计/image/Java-2026-08-06-1n0dn1h6.png",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022271803-sxpmtjxi-----_image_Java-2026-08-06-1n0dn1h6.png.bin"
+        },
+        {
+          "kind": "rename",
+          "fromPath": "代码审计/image/Java-2026-08-06-1n0dn1h6.png",
+          "toPath": "代码审计/image/Java-2026-08-06-1n0dn1h6.webp"
+        }
+      ],
+      "afterState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022271803-sxpmtjxi-after-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-1n0dn1h6.png",
+            "kind": "binary",
+            "exists": false
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-1n0dn1h6.webp",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022271803-sxpmtjxi-after-----_image_Java-2026-08-06-1n0dn1h6.webp.bin"
+          }
+        ],
+        "folders": [
+          {
+            "path": "代码审计/image",
+            "exists": true
+          }
+        ]
+      },
+      "beforeState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022271803-sxpmtjxi-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-1n0dn1h6.png",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022271803-sxpmtjxi-----_image_Java-2026-08-06-1n0dn1h6.png.bin"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-1n0dn1h6.webp",
+            "kind": "binary",
+            "exists": false
+          }
+        ],
+        "folders": [
+          {
+            "path": "代码审计/image",
+            "exists": false
+          }
+        ]
+      },
+      "redoable": true,
+      "completedAt": 1786022271914
+    },
+    {
+      "id": "1786022329059-iy9cf0yj",
+      "label": "粘贴导入 Java",
+      "trigger": "paste-import",
+      "scope": "single-note",
+      "status": "committed",
+      "createdAt": 1786022329059,
+      "entries": [
+        {
+          "kind": "text-snapshot",
+          "path": "代码审计/Java.md",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022329059-iy9cf0yj-----_Java.md.txt"
+        },
+        {
+          "kind": "created-file",
+          "path": "代码审计/image/Java-2026-08-06-akwl6r3i.png"
+        },
+        {
+          "kind": "binary-snapshot",
+          "path": "代码审计/image/Java-2026-08-06-akwl6r3i.png",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022329059-iy9cf0yj-----_image_Java-2026-08-06-akwl6r3i.png.bin"
+        },
+        {
+          "kind": "rename",
+          "fromPath": "代码审计/image/Java-2026-08-06-akwl6r3i.png",
+          "toPath": "代码审计/image/Java-2026-08-06-akwl6r3i.webp"
+        }
+      ],
+      "afterState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022329059-iy9cf0yj-after-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-akwl6r3i.png",
+            "kind": "binary",
+            "exists": false
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-akwl6r3i.webp",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022329059-iy9cf0yj-after-----_image_Java-2026-08-06-akwl6r3i.webp.bin"
+          }
+        ],
+        "folders": []
+      },
+      "beforeState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022329059-iy9cf0yj-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-akwl6r3i.png",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022329059-iy9cf0yj-----_image_Java-2026-08-06-akwl6r3i.png.bin"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-akwl6r3i.webp",
+            "kind": "binary",
+            "exists": false
+          }
+        ],
+        "folders": []
+      },
+      "redoable": true,
+      "completedAt": 1786022329197
+    },
+    {
+      "id": "1786022443009-vngs3u50",
+      "label": "粘贴导入 2026-07-25 复习javaEE",
+      "trigger": "paste-import",
+      "scope": "single-note",
+      "status": "committed",
+      "createdAt": 1786022443009,
+      "entries": [
+        {
+          "kind": "text-snapshot",
+          "path": "2026-07-25 复习javaEE.md",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022443009-vngs3u50-2026-07-25---javaEE.md.txt"
+        },
+        {
+          "kind": "created-folder",
+          "path": "image"
+        },
+        {
+          "kind": "created-file",
+          "path": "image/2026-07-25_复习javaEE-2026-08-06-sgwepd3h.png"
+        },
+        {
+          "kind": "binary-snapshot",
+          "path": "image/2026-07-25_复习javaEE-2026-08-06-sgwepd3h.png",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022443009-vngs3u50-image_2026-07-25_--javaEE-2026-08-06-sgwepd3h.png.bin"
+        },
+        {
+          "kind": "rename",
+          "fromPath": "image/2026-07-25_复习javaEE-2026-08-06-sgwepd3h.png",
+          "toPath": "image/2026-07-25_复习javaEE-2026-08-06-sgwepd3h.webp"
+        }
+      ],
+      "afterState": {
+        "files": [
+          {
+            "path": "2026-07-25 复习javaEE.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022443009-vngs3u50-after-2026-07-25---javaEE.md.txt"
+          },
+          {
+            "path": "image/2026-07-25_复习javaEE-2026-08-06-sgwepd3h.png",
+            "kind": "binary",
+            "exists": false
+          },
+          {
+            "path": "image/2026-07-25_复习javaEE-2026-08-06-sgwepd3h.webp",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022443009-vngs3u50-after-image_2026-07-25_--javaEE-2026-08-06-sgwepd3h.webp.bin"
+          }
+        ],
+        "folders": [
+          {
+            "path": "image",
+            "exists": true
+          }
+        ]
+      },
+      "beforeState": {
+        "files": [
+          {
+            "path": "2026-07-25 复习javaEE.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022443009-vngs3u50-2026-07-25---javaEE.md.txt"
+          },
+          {
+            "path": "image/2026-07-25_复习javaEE-2026-08-06-sgwepd3h.png",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022443009-vngs3u50-image_2026-07-25_--javaEE-2026-08-06-sgwepd3h.png.bin"
+          },
+          {
+            "path": "image/2026-07-25_复习javaEE-2026-08-06-sgwepd3h.webp",
+            "kind": "binary",
+            "exists": false
+          }
+        ],
+        "folders": [
+          {
+            "path": "image",
+            "exists": false
+          }
+        ]
+      },
+      "redoable": true,
+      "completedAt": 1786022443173
+    },
+    {
+      "id": "1786022538577-aspb706g",
+      "label": "粘贴导入 2026-07-25 复习javaEE",
+      "trigger": "paste-import",
+      "scope": "single-note",
+      "status": "committed",
+      "createdAt": 1786022538577,
+      "entries": [
+        {
+          "kind": "text-snapshot",
+          "path": "2026-07-25 复习javaEE.md",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022538577-aspb706g-2026-07-25---javaEE.md.txt"
+        },
+        {
+          "kind": "created-file",
+          "path": "image/2026-07-25_复习javaEE-2026-08-06-f8m7gx0y.png"
+        },
+        {
+          "kind": "binary-snapshot",
+          "path": "image/2026-07-25_复习javaEE-2026-08-06-f8m7gx0y.png",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022538577-aspb706g-image_2026-07-25_--javaEE-2026-08-06-f8m7gx0y.png.bin"
+        },
+        {
+          "kind": "rename",
+          "fromPath": "image/2026-07-25_复习javaEE-2026-08-06-f8m7gx0y.png",
+          "toPath": "image/2026-07-25_复习javaEE-2026-08-06-f8m7gx0y.webp"
+        }
+      ],
+      "afterState": {
+        "files": [
+          {
+            "path": "2026-07-25 复习javaEE.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022538577-aspb706g-after-2026-07-25---javaEE.md.txt"
+          },
+          {
+            "path": "image/2026-07-25_复习javaEE-2026-08-06-f8m7gx0y.png",
+            "kind": "binary",
+            "exists": false
+          },
+          {
+            "path": "image/2026-07-25_复习javaEE-2026-08-06-f8m7gx0y.webp",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022538577-aspb706g-after-image_2026-07-25_--javaEE-2026-08-06-f8m7gx0y.webp.bin"
+          }
+        ],
+        "folders": []
+      },
+      "beforeState": {
+        "files": [
+          {
+            "path": "2026-07-25 复习javaEE.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022538577-aspb706g-2026-07-25---javaEE.md.txt"
+          },
+          {
+            "path": "image/2026-07-25_复习javaEE-2026-08-06-f8m7gx0y.png",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022538577-aspb706g-image_2026-07-25_--javaEE-2026-08-06-f8m7gx0y.png.bin"
+          },
+          {
+            "path": "image/2026-07-25_复习javaEE-2026-08-06-f8m7gx0y.webp",
+            "kind": "binary",
+            "exists": false
+          }
+        ],
+        "folders": []
+      },
+      "redoable": true,
+      "completedAt": 1786022538669
+    },
+    {
+      "id": "1786022681625-aqdnih2t",
+      "label": "粘贴导入 Java",
+      "trigger": "paste-import",
+      "scope": "single-note",
+      "status": "committed",
+      "createdAt": 1786022681625,
+      "entries": [
+        {
+          "kind": "text-snapshot",
+          "path": "代码审计/Java.md",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022681625-aqdnih2t-----_Java.md.txt"
+        },
+        {
+          "kind": "created-file",
+          "path": "代码审计/image/Java-2026-08-06-zcu8i0r2.png"
+        },
+        {
+          "kind": "binary-snapshot",
+          "path": "代码审计/image/Java-2026-08-06-zcu8i0r2.png",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022681625-aqdnih2t-----_image_Java-2026-08-06-zcu8i0r2.png.bin"
+        },
+        {
+          "kind": "rename",
+          "fromPath": "代码审计/image/Java-2026-08-06-zcu8i0r2.png",
+          "toPath": "代码审计/image/Java-2026-08-06-zcu8i0r2.webp"
+        }
+      ],
+      "afterState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022681625-aqdnih2t-after-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-zcu8i0r2.png",
+            "kind": "binary",
+            "exists": false
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-zcu8i0r2.webp",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022681625-aqdnih2t-after-----_image_Java-2026-08-06-zcu8i0r2.webp.bin"
+          }
+        ],
+        "folders": []
+      },
+      "beforeState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022681625-aqdnih2t-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-zcu8i0r2.png",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022681625-aqdnih2t-----_image_Java-2026-08-06-zcu8i0r2.png.bin"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-zcu8i0r2.webp",
+            "kind": "binary",
+            "exists": false
+          }
+        ],
+        "folders": []
+      },
+      "redoable": true,
+      "completedAt": 1786022681721
+    },
+    {
+      "id": "1786022843894-tcbypede",
+      "label": "粘贴导入 Java",
+      "trigger": "paste-import",
+      "scope": "single-note",
+      "status": "committed",
+      "createdAt": 1786022843894,
+      "entries": [
+        {
+          "kind": "text-snapshot",
+          "path": "代码审计/Java.md",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022843894-tcbypede-----_Java.md.txt"
+        },
+        {
+          "kind": "created-file",
+          "path": "代码审计/image/Java-2026-08-06-a4ccjxgf.png"
+        },
+        {
+          "kind": "binary-snapshot",
+          "path": "代码审计/image/Java-2026-08-06-a4ccjxgf.png",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022843894-tcbypede-----_image_Java-2026-08-06-a4ccjxgf.png.bin"
+        },
+        {
+          "kind": "rename",
+          "fromPath": "代码审计/image/Java-2026-08-06-a4ccjxgf.png",
+          "toPath": "代码审计/image/Java-2026-08-06-a4ccjxgf.webp"
+        }
+      ],
+      "afterState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022843894-tcbypede-after-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-a4ccjxgf.png",
+            "kind": "binary",
+            "exists": false
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-a4ccjxgf.webp",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022843894-tcbypede-after-----_image_Java-2026-08-06-a4ccjxgf.webp.bin"
+          }
+        ],
+        "folders": []
+      },
+      "beforeState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022843894-tcbypede-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-a4ccjxgf.png",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786022843894-tcbypede-----_image_Java-2026-08-06-a4ccjxgf.png.bin"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-a4ccjxgf.webp",
+            "kind": "binary",
+            "exists": false
+          }
+        ],
+        "folders": []
+      },
+      "redoable": true,
+      "completedAt": 1786022843980
+    },
+    {
+      "id": "1786023793692-curkg7ok",
+      "label": "粘贴导入 Java",
+      "trigger": "paste-import",
+      "scope": "single-note",
+      "status": "committed",
+      "createdAt": 1786023793692,
+      "entries": [
+        {
+          "kind": "text-snapshot",
+          "path": "代码审计/Java.md",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786023793692-curkg7ok-----_Java.md.txt"
+        },
+        {
+          "kind": "created-file",
+          "path": "代码审计/image/Java-2026-08-06-ntcaxouh.png"
+        },
+        {
+          "kind": "binary-snapshot",
+          "path": "代码审计/image/Java-2026-08-06-ntcaxouh.png",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786023793692-curkg7ok-----_image_Java-2026-08-06-ntcaxouh.png.bin"
+        },
+        {
+          "kind": "rename",
+          "fromPath": "代码审计/image/Java-2026-08-06-ntcaxouh.png",
+          "toPath": "代码审计/image/Java-2026-08-06-ntcaxouh.webp"
+        }
+      ],
+      "afterState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786023793692-curkg7ok-after-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-ntcaxouh.png",
+            "kind": "binary",
+            "exists": false
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-ntcaxouh.webp",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786023793692-curkg7ok-after-----_image_Java-2026-08-06-ntcaxouh.webp.bin"
+          }
+        ],
+        "folders": []
+      },
+      "beforeState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786023793692-curkg7ok-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-ntcaxouh.png",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786023793692-curkg7ok-----_image_Java-2026-08-06-ntcaxouh.png.bin"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-ntcaxouh.webp",
+            "kind": "binary",
+            "exists": false
+          }
+        ],
+        "folders": []
+      },
+      "redoable": true,
+      "completedAt": 1786023793750
+    },
+    {
+      "id": "1786024120750-690s5gbm",
+      "label": "粘贴导入 Java",
+      "trigger": "paste-import",
+      "scope": "single-note",
+      "status": "committed",
+      "createdAt": 1786024120750,
+      "entries": [
+        {
+          "kind": "text-snapshot",
+          "path": "代码审计/Java.md",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024120750-690s5gbm-----_Java.md.txt"
+        },
+        {
+          "kind": "created-file",
+          "path": "代码审计/image/Java-2026-08-06-3qqq541k.png"
+        },
+        {
+          "kind": "binary-snapshot",
+          "path": "代码审计/image/Java-2026-08-06-3qqq541k.png",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024120750-690s5gbm-----_image_Java-2026-08-06-3qqq541k.png.bin"
+        },
+        {
+          "kind": "rename",
+          "fromPath": "代码审计/image/Java-2026-08-06-3qqq541k.png",
+          "toPath": "代码审计/image/Java-2026-08-06-3qqq541k.webp"
+        }
+      ],
+      "afterState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024120750-690s5gbm-after-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-3qqq541k.png",
+            "kind": "binary",
+            "exists": false
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-3qqq541k.webp",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024120750-690s5gbm-after-----_image_Java-2026-08-06-3qqq541k.webp.bin"
+          }
+        ],
+        "folders": []
+      },
+      "beforeState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024120750-690s5gbm-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-3qqq541k.png",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024120750-690s5gbm-----_image_Java-2026-08-06-3qqq541k.png.bin"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-3qqq541k.webp",
+            "kind": "binary",
+            "exists": false
+          }
+        ],
+        "folders": []
+      },
+      "redoable": true,
+      "completedAt": 1786024120804
+    },
+    {
+      "id": "1786024179412-56w0fl1f",
+      "label": "粘贴导入 Java",
+      "trigger": "paste-import",
+      "scope": "single-note",
+      "status": "committed",
+      "createdAt": 1786024179412,
+      "entries": [
+        {
+          "kind": "text-snapshot",
+          "path": "代码审计/Java.md",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024179412-56w0fl1f-----_Java.md.txt"
+        },
+        {
+          "kind": "created-file",
+          "path": "代码审计/image/Java-2026-08-06-1pqzw2ar.png"
+        },
+        {
+          "kind": "binary-snapshot",
+          "path": "代码审计/image/Java-2026-08-06-1pqzw2ar.png",
+          "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024179412-56w0fl1f-----_image_Java-2026-08-06-1pqzw2ar.png.bin"
+        },
+        {
+          "kind": "rename",
+          "fromPath": "代码审计/image/Java-2026-08-06-1pqzw2ar.png",
+          "toPath": "代码审计/image/Java-2026-08-06-1pqzw2ar.webp"
+        }
+      ],
+      "afterState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024179412-56w0fl1f-after-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-1pqzw2ar.png",
+            "kind": "binary",
+            "exists": false
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-1pqzw2ar.webp",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024179412-56w0fl1f-after-----_image_Java-2026-08-06-1pqzw2ar.webp.bin"
+          }
+        ],
+        "folders": []
+      },
+      "beforeState": {
+        "files": [
+          {
+            "path": "代码审计/Java.md",
+            "kind": "text",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024179412-56w0fl1f-----_Java.md.txt"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-1pqzw2ar.png",
+            "kind": "binary",
+            "exists": true,
+            "snapshotPath": ".obsidian/plugins/note-image-manager/recovery/snapshots/1786024179412-56w0fl1f-----_image_Java-2026-08-06-1pqzw2ar.png.bin"
+          },
+          {
+            "path": "代码审计/image/Java-2026-08-06-1pqzw2ar.webp",
+            "kind": "binary",
+            "exists": false
+          }
+        ],
+        "folders": []
+      },
+      "redoable": true,
+      "completedAt": 1786024179469
+    }
+  ]
+}
